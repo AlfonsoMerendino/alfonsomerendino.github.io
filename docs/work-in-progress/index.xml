@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Work-in-Progresses on Alfonso Merendino</title>
+    <link>https://alfonsomerendino.github.io/work-in-progress/</link>
+    <description>Recent content in Work-in-Progresses on Alfonso Merendino</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <atom:link href="https://alfonsomerendino.github.io/work-in-progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supply Chain Uncertainty, Energy Prices and Inflation</title>
+      <link>https://alfonsomerendino.github.io/work-in-progress/supply-chain-uncertainty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alfonsomerendino.github.io/work-in-progress/supply-chain-uncertainty/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Using US and EZ data, we document that (i) the pass-through of energy prices to inflation is state-dependent - higher when supply chain uncertainty is elevated - and (ii) energy prices become more informative about broader supply chain conditions in such states. We build a model in which firms use two inputs - energy and a specialized component - both shipped through a capacity-constrained network. Under transportation network congestion, energy can still be purchased in local liquid markets at a premium, while the specialized input faces stochastic delivery delays. Firms are unable to disentangle transitory energy price shocks from logistical disruptions, and treat energy prices as noisy signals of latent delays, updating their beliefs via Bayesian learning. This raises their perceived marginal costs. We obtain three main results: (1) both the static and the dynamic pass-through from energy shocks to output prices  scale with supply chain uncertainty; (2) an incomplete-information version of the New Keynesian Phillips Curve with an endogenous, volatility-amplified cost-push term; and (3) in general equilibrium, greater sensitivity and persistence of inflation to purely transitory energy shocks. The enhanced pass-through arises from the volatility, not the level, of transportation shocks, consistent with the 2021–23 inflation episode.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
