@@ -42,8 +42,8 @@ params:
 #        url: "/policy-articles/"
   # social icons under the profile
   socialIcons:
-    - name: "CV"
-      url: "/cv.pdf"                          # place cv.pdf in the static/ folder
+#    - name: "CV"
+#      url: "/cv.pdf"                          # place cv.pdf in the static/ folder
     - name: "Email"
       url: "mailto:alfonso.merendino@ecb.europa.eu"
     - name: "Linkedin"
