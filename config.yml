@@ -1,3 +1,9 @@
+# recall to run this every time you update:
+# "C:\Users\alfon\hugo\hugo.exe" -d docs
+# git add .
+# git commit -m "Update site"
+# git push origin main
+
 baseURL: "https://alfonsomerendino.github.io/"
 languageCode: "en-us"
 title: "Alfonso Merendino"
