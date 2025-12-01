@@ -18,7 +18,7 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 **Status.** Work in progress (updated: November 2025).
 
-[Download paper (PDF)](MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
+[Download paper (PDF)](work-in-progress/MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
 
 
 <!-- [Slides](/slides/supply-chain-uncertainty-slides.pdf) -->
