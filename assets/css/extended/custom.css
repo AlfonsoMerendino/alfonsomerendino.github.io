@@ -1,0 +1,29 @@
+/* Make the author/meta line under the title larger on single pages */
+.single .post-meta,
+.page-header .post-meta,
+.post-header .post-meta,
+.post-meta {
+    font-size: 1.3rem !important;  /* bump this up if you want it even bigger */
+    font-weight: 600 !important;   /* make it more prominent */
+}
+
+/* Make the Social Economics Lab link bold blue */
+a[href="https://socialeconomicslab.org/"] {
+    color: #0056b3 !important;  /* stronger blue */
+    font-weight: 700 !important;
+}
+
+a[href="https://economics.yale.edu/"] {
+    color: #0056b3 !important;  /* stronger blue */
+    font-weight: 700 !important;
+}
+
+a[href="https://www.ecb.europa.eu/home/html/index.en.html"] {
+    color: #0056b3 !important;  /* stronger blue */
+    font-weight: 700 !important;
+}
+
+a[href="https://www.unibocconi.it/en"] {
+    color: #0056b3 !important;  /* stronger blue */
+    font-weight: 700 !important;
+}
