@@ -20,6 +20,8 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 [Download paper (PDF)](/work-in-progress/MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
 
+[See Tommaso Monacelli presentation and Ludwig Straub discussion at the Boston Fed 69th Economic Conference](https://youtu.be/ki198I6NCv4?t=5148)
+
 
 <!-- [Slides](/slides/supply-chain-uncertainty-slides.pdf) -->
 
