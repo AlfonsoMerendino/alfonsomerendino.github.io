@@ -9,7 +9,7 @@ keywords:
   - "pass-through"
   - "inflation"
 cover:
-  image: "work-in-progress/Hormutz FT.png"
+  image: "work-in-progress/fig_website.png"
   relative: true
 author: "with Tommaso Monacelli (Bocconi)" 
 ---
