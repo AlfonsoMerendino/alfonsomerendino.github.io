@@ -1,5 +1,5 @@
 ---
-title: "Supply Chain Uncertainty, Energy Prices and Inflation"
+title: "Supply Chain Uncertainty, Energy Prices, and Inflation"
 draft: false
 keywords:
   - "supply chain uncertainty"
