@@ -43,7 +43,7 @@ params:
   # social icons under the profile
   socialIcons:
     - name: "Email"
-      url: "mailto:alfonso.merendino@ecb.europa.eu"
+      url: "mailto:alfonso.merendino@yale.edu"
     - name: "Linkedin"
       url: "https://www.linkedin.com/in/alfonso-merendino-95b055151/?originalSubdomain=it"
 
