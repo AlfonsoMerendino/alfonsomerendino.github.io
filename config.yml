@@ -32,15 +32,14 @@ params:
   profileMode:
     enabled: true
     title: "Alfonso Merendino"
-    subtitle: "Hi! I am an incoming PhD student in Economics at **[Yale](https://economics.yale.edu/)** and a Research Fellow at the **[Social Economics Lab](https://socialeconomicslab.org/)**. I received both my Bachelor’s and my Master’s in Economics from **[Bocconi](https://www.unibocconi.it/en)**. I am interested in macroeconomics and trade."
+    subtitle: "Hi! I am an incoming PhD student in Economics at **[Yale](https://economics.yale.edu/)** and a Research Fellow at the **[Social Economics Lab](https://socialeconomicslab.org/)**. I received both my Bachelor’s and my Master’s in Economics from **[Bocconi](https://www.unibocconi.it/en)**. I am interested in macroeconomics and trade.\n\n**Work in progress**"
     imageUrl: "profilepicture_v2.jpg"
     imageTitle: "Alfonso Merendino"
     buttons:
-      - name: "Work in progress"
-        url: "/work-in-progress/"
-
-#      - name: "Policy articles"
-#        url: "/policy-articles/"
+      - name: "Working paper"
+        url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6768480"
+      - name: "Policy work"
+        url: "/policy-work/"
   # social icons under the profile
   socialIcons:
     - name: "Email"
