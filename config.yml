@@ -38,10 +38,9 @@ params:
     buttons:
       - name: "Work in progress"
         url: "/work-in-progress/"
-      - name: "Working papers"
-        url: "/working-papers/"
-      - name: "Policy work"
-        url: "/policy-work/"
+
+#      - name: "Policy articles"
+#        url: "/policy-articles/"
   # social icons under the profile
   socialIcons:
     - name: "Email"
