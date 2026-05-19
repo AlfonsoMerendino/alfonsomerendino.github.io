@@ -18,12 +18,9 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 **Status.** Work in progress (updated: April 2026).
 
-[Download paper (PDF)](/work-in-progress/MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
+[ECB Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6768480) &nbsp;&nbsp; [Download paper (PDF)](/work-in-progress/MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf) &nbsp;&nbsp; [Download slides (PDF)](/work-in-progress/SLIDES_MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
 
 [See Tommaso Monacelli presentation and Ludwig Straub discussion at the Boston Fed 69th Economic Conference](https://youtu.be/ki198I6NCv4?t=5148)
-
-
-<!-- [Slides](/slides/supply-chain-uncertainty-slides.pdf) -->
 
 
 
