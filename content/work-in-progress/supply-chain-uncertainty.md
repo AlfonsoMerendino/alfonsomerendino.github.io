@@ -1,5 +1,6 @@
 ---
 title: "Supply Chain Uncertainty, Energy Prices, and Inflation"
+weight: 1
 draft: false
 keywords:
   - "supply chain uncertainty"

@@ -1,6 +1,6 @@
 ---
 title: "The impact of China’s industrial rise on the euro area"
-date: "2026-03-01T00:00:00Z"
+weight: 2
 draft: false
 keywords:
   - "China"
