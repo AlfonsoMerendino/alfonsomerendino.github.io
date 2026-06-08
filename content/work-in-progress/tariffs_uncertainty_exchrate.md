@@ -10,7 +10,7 @@ keywords:
   - "euro area"
   - "trade policy uncertainty"
 cover:
-  image: "work-in-progress/LP_NAR_1.png"
+  image: "work-in-progress/tariffs_exch_rate_fig.png"
   relative: true
 author: "with Tommaso Monacelli (Bocconi)" 
 ---
