@@ -20,7 +20,7 @@ estimate S-TPU from a state-space stochastic-volatility model of tariff rates. W
 
 **Status.** Working paper (updated: June 2026).
 
-[Download paper (PDF)](content/work-in-progress/Me-Mo EP PEGI final.pdf) &nbsp;&nbsp; [Economic Policy conference 19-20 June 2026](https://economic-policy.org/highlights-programme-june-2026/) 
+[Download paper (PDF)](content/work-in-progress/Me-Mo_EP_PEGI_final.pdf) &nbsp;&nbsp; [Economic Policy conference 19-20 June 2026](https://economic-policy.org/highlights-programme-june-2026/) 
 
 
 
