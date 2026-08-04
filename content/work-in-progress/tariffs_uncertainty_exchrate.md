@@ -8,7 +8,7 @@ keywords:
   - "structural trade policy uncertainty"
 cover:
 image: "/work-in-progress/tariffs_exch_rate_fig_v2.png"
-relative: true
+relative: false
 author: "with Tommaso Monacelli (Bocconi)" 
 ---
 
