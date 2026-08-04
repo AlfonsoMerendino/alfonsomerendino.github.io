@@ -32,7 +32,7 @@ params:
   profileMode:
     enabled: true
     title: "Alfonso Merendino"
-    subtitle: "Hi! I am an incoming PhD student in Economics at **[Yale](https://economics.yale.edu/)** and a Research Fellow at the **[Social Economics Lab](https://socialeconomicslab.org/)**. I received both my Bachelor’s and my Master’s in Economics from **[Bocconi](https://www.unibocconi.it/en)**. I am interested in macroeconomics and trade."
+    subtitle: "Hi! I am an incoming PhD student in Economics at **[Yale](https://economics.yale.edu/)** and a Research Fellow at the **[Social Economics Lab](https://socialeconomicslab.org/)**. I interned in macroeconomic modeling at the **[ECB](https://www.ecb.europa.eu/home/html/index.en.html)**. I received both my Bachelor’s and my Master’s in Economics from **[Bocconi](https://www.unibocconi.it/en)**. I am interested in macroeconomics and trade."
     imageUrl: "profilepicture_v2.jpg"
     imageTitle: "Alfonso Merendino"
     buttons:
