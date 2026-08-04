@@ -15,12 +15,11 @@ cover:
 author: "with Tommaso Monacelli (Bocconi)" 
 ---
 
-**Abstract.** We estimate the macroeconomic effects of U.S. tariff shocks in a Bayesian VAR identified via a narrative-dominance approach. In a sample starting in 1990, we find that tariff shocks: (i) reduce real activity, (ii) lower CPI inflation in the short run and raise it in the medium run, (iii) depreciate the U.S. dollar effective exchange rate, (iv) induce an S-shaped improvement of the trade balance, and (v) prompt an expansionary response of monetary policy. We show that the exchange-rate response depends on the degree of structural trade policy uncertainty (S-TPU), i.e., uncertainty about the persistence of the underlying trade-policy regime. We
-estimate S-TPU from a state-space stochastic-volatility model of tariff rates. When S-TPU is low, tariffs raise economic activity and inflation, and appreciate the exchange rate, in line with the textbook prediction. When S-TPU is high, the same shock depreciates the exchange rate, depresses economic activity, and elicits a more accommodative monetary policy response. We rationalize these findings in a model with incomplete international financial markets and uncertainty about the persistence of tariff policy. When uncertainty is sufficiently high, agents partially perceive transitory tariffs as persistent and borrow against expected future trade surpluses, leading to a depreciation of the exchange rate.
+**Abstract.** We estimate the macroeconomic effects of U.S. tariff shocks in a Bayesian VAR identified through narrative dominance. In the short run, tariffs transmit as a negative demand shock: they reduce both activity and inflation, and prompt a monetary policy easing. Furthermore, they depreciate the effective U.S. dollar exchange rate, and generate an S-shaped improvement in the trade balance. These average effects depend critically on structural trade policy uncertainty (S-TPU)—uncertainty about the persistence of the trade-policy regime—which we estimate from a state-space stochastic-volatility model of tariff rates. When S-TPU is low, tariffs raise activity and inflation and appreciate the dollar, consistent with textbook predictions. When S-TPU is high, the same shock depresses activity, depreciates the dollar, and prompts a more accommodative monetary response. We rationalize these findings in an equilibrium model of the exchange rate with uncertainty about the persistence of tariff policy.
 
-**Status.** Working paper (updated: June 2026).
+**Status.** Working paper (updated: August 2026).
 
-[Download paper (PDF)](content/work-in-progress/Me-Mo_EP_PEGI_final.pdf) &nbsp;&nbsp; [Economic Policy conference 19-20 June 2026](https://economic-policy.org/highlights-programme-june-2026/) 
+[Download paper (PDF)](content/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; [Watch the Economic Policy conference in Venice, 19–20 June 2026]([https://economic-policy.org/highlights-programme-june-2026/](https://economic-policy.org/livestreams-2/)) 
 
 
 
