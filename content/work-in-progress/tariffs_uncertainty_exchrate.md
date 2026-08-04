@@ -5,13 +5,10 @@ draft: false
 keywords:
   - "tariffs"
   - "uncertainty"
-  - "exchange rate"
-  - "dollar"
-  - "euro area"
-  - "trade policy uncertainty"
+  - "structural trade policy uncertainty"
 cover:
-  image: "work-in-progress/tariffs_exch_rate_fig.png"
-  relative: true
+image: "work-in-progress/tariffs_exch_rate_fig_v2.png"
+relative: true
 author: "with Tommaso Monacelli (Bocconi)" 
 ---
 
@@ -19,7 +16,7 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 **Status.** Working paper (updated: August 2026).
 
-[Download paper (PDF)](content/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; [Watch the Economic Policy conference in Venice, 19–20 June 2026]([https://economic-policy.org/highlights-programme-june-2026/](https://economic-policy.org/livestreams-2/)) 
+[Download paper (PDF)](content/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; [Watch the Economic Policy conference in Venice, 19–20 June 2026](https://economic-policy.org/livestreams-2/) 
 
 
 
