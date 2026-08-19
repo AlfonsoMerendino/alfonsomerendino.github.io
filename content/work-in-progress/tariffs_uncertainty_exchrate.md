@@ -16,7 +16,7 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 **Status.** Working paper (updated: August 2026).
 
-[Download paper (PDF)](/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper invited at the Economic Policy conference in Venice, 19–20 June 2026 (see more)](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/) 
+[Download paper (PDF)](/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper invited at the Economic Policy conference, June 2026 (see more)](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/) 
 
 
 
