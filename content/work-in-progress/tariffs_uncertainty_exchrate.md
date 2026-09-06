@@ -18,7 +18,7 @@ author: "with Tommaso Monacelli (Bocconi)"
 
 **Coverage.** [CEPR Economic Vox Talks](https://cepr.org/multimedia/tariffs-uncertainty-and-exchange-rate)
 
-[Download paper (PDF)](/work-in-progress/MeMo2026_Tariffs_Uncertainty_ExchRate_EP_PEGI.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper at the Economic Policy conference, June 2026 (see more)](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/) 
+[Download paper (PDF)](/work-in-progress/Tariffs_Uncertainty_and_Exchange_Rate_MM2026.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper at the Economic Policy conference, June 2026 (see more)](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/) 
 
 
 
