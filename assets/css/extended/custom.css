@@ -1,12 +1,35 @@
-/* Make the author/meta line under the title larger on single pages */
+/* Author/co-author line under the title: smaller than the title, not bold, not gray */
 .single .post-meta,
 .page-header .post-meta,
 .post-header .post-meta,
 .post-meta {
-    font-size: 1.3rem !important;  /* bump this up if you want it even bigger */
-    font-weight: 600 !important;   /* make it more prominent */
+    font-size: 20px !important;    /* noticeably smaller than the title */
+    font-weight: 400 !important;   /* not bold */
+    color: var(--content) !important; /* same near-black as the title, not the default gray */
+    margin-top: 0;                 /* sit right under the title */
 }
 
+/* Work-in-progress list cards: co-author line, moved (in list.html) to sit
+   right under the title. Font-size/line-height match .entry-header h2
+   exactly — this site's own CSS sets that h2 to 20px, not the PaperMod
+   theme's 24px default — so the two are genuinely identical in size. */
+.wip-entry .entry-footer {
+    font-size: 20px;
+    line-height: var(--lineheight);
+    font-weight: 400;               /* not bold */
+    color: #464646;                 /* dark gray: halfway between the title's
+                                        near-black (#1f1f1f) and the summary's
+                                        light gray (#6c6c6c) */
+    margin: 4px 0 10px 0;
+}
+
+/* Work-in-progress list cards: blue frame behind each figure, so it reads
+   as a distinct block from the title + summary text below it. */
+.wip-entry .entry-cover {
+    background: #cfe3f7;
+    padding: 28px;
+    border-radius: var(--radius);
+}
 
 /* Make the Social Economics Lab link bold blue */
 a[href="https://socialeconomicslab.org/"] {
