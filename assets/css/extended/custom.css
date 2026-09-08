@@ -1,52 +1,109 @@
-/* Author/co-author line under the title: smaller than the title, not bold, not gray */
-.single .post-meta,
-.page-header .post-meta,
-.post-header .post-meta,
-.post-meta {
-    font-size: 20px !important;    /* noticeably smaller than the title */
-    font-weight: 400 !important;   /* not bold */
-    color: var(--content) !important; /* same near-black as the title, not the default gray */
-    margin-top: 0;                 /* sit right under the title */
-}
+{{- define "main" }}
 
-/* Work-in-progress list cards: co-author line, moved (in list.html) to sit
-   right under the title. Font-size/line-height match .entry-header h2
-   exactly — this site's own CSS sets that h2 to 20px, not the PaperMod
-   theme's 24px default — so the two are genuinely identical in size. */
-.wip-entry .entry-footer {
-    font-size: 20px;
-    line-height: var(--lineheight);
-    font-weight: 400;               /* not bold */
-    color: #464646;                 /* dark gray: halfway between the title's
-                                        near-black (#1f1f1f) and the summary's
-                                        light gray (#6c6c6c) */
-    margin: 4px 0 10px 0;
-}
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }} {{/* if not profileMode */}}
 
-/* Work-in-progress list cards: blue frame behind each figure, so it reads
-   as a distinct block from the title + summary text below it. */
-.wip-entry .entry-cover {
-    background: #cfe3f7;
-    padding: 28px;
-    border-radius: var(--radius);
-}
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>
+    {{- if (eq .Kind `term`) }}
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" stroke-width="2" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 14"> <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/> <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/> </svg>&nbsp; {{ .Title }}
+    {{- end}}
+  </h1>
+</header>
+{{- end }}
 
-/* Make the Social Economics Lab link bold blue */
-a[href="https://socialeconomicslab.org/"] {
-    color: #0056b3 !important;  /* stronger blue */
-    font-weight: 700 !important;
-}
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
 
-a[href="https://economics.yale.edu/"] {
-    color: #0056b3 !important;  /* stronger blue */
-    font-weight: 700 !important;
-}
+{{- $pages := union .RegularPages .Sections }}
 
-a[href="https://www.ecb.europa.eu/home/html/index.en.html"] {
-    color: #0056b3 !important;  /* stronger blue */
-    font-weight: 700 !important;
-}
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
 
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $term := .Data.Term }}
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $class := "post-entry" }}
+
+{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+{{- $class = "first-entry" }}
+{{- else if $term }}
+{{- $class = "post-entry tag-entry" }}
+{{- end }}
+
+<article class="{{ $class }}{{ if eq .Section "work-in-progress" }} wip-entry{{ end }}">
+  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      {{- .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+      {{- end }}
+    </h2>
+  </header>
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}
 a[href="https://www.unibocconi.it/en"] {
     color: #0056b3 !important;  /* stronger blue */
     font-weight: 700 !important;
