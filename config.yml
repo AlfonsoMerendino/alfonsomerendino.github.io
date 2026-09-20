@@ -33,7 +33,8 @@ params:
     enabled: true
     title: "Alfonso Merendino"
     subtitle: "Hi! I am a PhD student in Economics at **[Yale](https://economics.yale.edu/)** and a Research Fellow at the **[Social Economics Lab at Harvard](https://socialeconomicslab.org/)**. I interned in macroeconomic modeling at the **[ECB](https://www.ecb.europa.eu/home/html/index.en.html)**. I received both my Bachelor’s and my Master’s in Economics from **[Bocconi](https://www.unibocconi.it/en)**."
-    imageUrl: "profilepicture_v2.jpg"
+#    imageUrl: "profilepicture_v2.jpg"
+    imageUrl: "google_profile_pic.jpg"
     imageTitle: "Alfonso Merendino"
     buttons:
       - name: "Work in progress"
