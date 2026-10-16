@@ -22,6 +22,19 @@ summary: "When _supply chain uncertainty_ rises - i.e., firms are unsure whether
 
 [ECB Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6768480) &nbsp;&nbsp; [Download paper (PDF)](/work-in-progress/MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf) &nbsp;&nbsp; [Download slides (PDF)](/work-in-progress/SLIDES_MM_Supply_Chain_Uncertainty__Energy_prices__and_Inflation.pdf)
 
+{{< cite >}}
+@techreport{MerendinoMonacelli2026supply,
+  author      = {Merendino, Alfonso and Monacelli, Tommaso},
+  title       = {Supply Chain Uncertainty, Energy Prices, and Inflation},
+  institution = {European Central Bank},
+  type        = {ECB Working Paper},
+  number      = {3230},
+  year        = {2026},
+  month       = {apr},
+  url         = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6768480}
+}
+{{< /cite >}}
+
 [See Tommaso Monacelli presentation and Ludwig Straub discussion at the Boston Fed (69th Economic Conference)](https://youtu.be/ki198I6NCv4?t=5148)
 
 

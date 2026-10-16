@@ -23,6 +23,16 @@ summary: "Tariff shocks transmit as a negative aggregate demand shocks and can _
 
 [Replication package](/work-in-progress/replication_package_tariff_MM2026.zip)
 
+{{< cite >}}
+@article{MerendinoMonacelli2026tariffs,
+  author  = {Merendino, Alfonso and Monacelli, Tommaso},
+  title   = {Tariffs, Uncertainty, and the Exchange Rate},
+  journal = {Economic Policy: Papers on European and Global Issues},
+  year    = {2026},
+  note    = {Forthcoming}
+}
+{{< /cite >}}
+
 
 
 

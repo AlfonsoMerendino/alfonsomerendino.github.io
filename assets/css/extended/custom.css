@@ -51,3 +51,44 @@ a[href="https://www.unibocconi.it/en"] {
     color: #0056b3 !important;  /* stronger blue */
     font-weight: 700 !important;
 }
+
+/* Cite button on paper pages (layouts/shortcodes/cite.html) */
+.cite-box {
+    margin: 16px 0 24px;
+}
+.cite-box > summary,
+.cite-actions button,
+.post-content .cite-actions a {
+    display: inline-block;
+    padding: 4px 14px;
+    border: 1px solid #0056b3;
+    border-radius: var(--radius);
+    background: none;
+    color: #0056b3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    cursor: pointer;
+    box-shadow: none;              /* drop PaperMod's link underline */
+    font-family: inherit;
+}
+.cite-box > summary {
+    list-style: none;              /* hide the disclosure triangle */
+}
+.cite-box > summary::-webkit-details-marker {
+    display: none;
+}
+.cite-box > summary:hover,
+.cite-box[open] > summary,
+.cite-actions button:hover,
+.post-content .cite-actions a:hover {
+    background: #0056b3;
+    color: #fff;
+}
+.cite-box pre {
+    margin: 12px 0 10px;
+}
+.cite-actions {
+    display: flex;
+    gap: 10px;
+}

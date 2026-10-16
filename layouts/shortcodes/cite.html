@@ -1,0 +1,56 @@
+{{- /*
+  Cite button for paper pages.
+
+  Usage (in a page's .md file, on its own line):
+
+    {{< cite >}}
+    @article{Key2026,
+      author = {Surname, Name and Surname, Name},
+      title  = {Title},
+      ...
+    }
+    {{< /cite >}}
+
+  Renders a "Cite" button. Clicking it reveals the BibTeX with
+  "Copy BibTeX" and "Download .bib" buttons. The .bib file is generated
+  at build time and published at /cite/<Key>.bib.
+*/ -}}
+{{- $bib := trim .Inner " \n\r\t" -}}
+{{- $key := "citation" -}}
+{{- with findRESubmatch `@\w+\s*\{\s*([^,\s]+)` $bib 1 -}}
+  {{- $key = index (index . 0) 1 -}}
+{{- end -}}
+{{- $file := resources.FromString (printf "cite/%s.bib" $key) (printf "%s\n" $bib) -}}
+<details class="cite-box">
+  <summary>Cite</summary>
+  <pre><code>{{ $bib }}</code></pre>
+  <div class="cite-actions">
+    <button type="button" class="cite-copy">Copy BibTeX</button>
+    <a class="cite-download" href="{{ $file.RelPermalink }}" download="{{ $key }}.bib">Download .bib</a>
+  </div>
+</details>
+{{- if not (.Page.Store.Get "citeScript") }}
+{{- .Page.Store.Set "citeScript" true }}
+<script>
+document.addEventListener("click", function (e) {
+  var btn = e.target.closest(".cite-copy");
+  if (!btn) return;
+  var code = btn.closest(".cite-box").querySelector("code");
+  var done = function (msg) {
+    btn.textContent = msg;
+    setTimeout(function () { btn.textContent = "Copy BibTeX"; }, 1500);
+  };
+  navigator.clipboard.writeText(code.textContent).then(
+    function () { done("Copied!"); },
+    function () {
+      var r = document.createRange();
+      r.selectNodeContents(code);
+      var s = window.getSelection();
+      s.removeAllRanges();
+      s.addRange(r);
+      done("Press Ctrl+C");
+    }
+  );
+});
+</script>
+{{- end }}
