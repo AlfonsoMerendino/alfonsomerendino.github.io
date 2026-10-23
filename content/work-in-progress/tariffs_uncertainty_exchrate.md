@@ -19,9 +19,9 @@ summary: "Tariff shocks transmit as a negative aggregate demand shocks and can _
 
 **Coverage.** [CEPR Economic Vox Talks](https://cepr.org/multimedia/tariffs-uncertainty-and-exchange-rate)
 
-[Download paper (PDF)](/work-in-progress/Tariffs_Uncertainty_and_Exchange_Rate_MM2026.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper presented at the 2026 Economic Policy conference](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/)
+[Download paper (PDF)](/work-in-progress/Tariffs_Uncertainty_and_Exchange_Rate_MM2026_final.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper presented at the 2026 Economic Policy conference](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/)
 
-[Replication package](/work-in-progress/replication_package_tariff_MM2026.zip)
+[Replication package](/work-in-progress/replication_package_tariff_MM2026_final.zip)
 
 {{< cite >}}
 @article{MerendinoMonacelli2026tariffs,
