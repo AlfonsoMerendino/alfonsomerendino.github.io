@@ -37,11 +37,11 @@ params:
     imageUrl: "google_profile_pic.jpg"
     imageTitle: "Alfonso Merendino"
     buttons:
-      - name: "Publications"
-        url: "/publications/"
-
       - name: "Work in progress"
         url: "/work-in-progress/"
+
+      - name: "Publications"
+        url: "/publications/"
 
 #      - name: "Policy articles"
 #        url: "/policy-articles/"
