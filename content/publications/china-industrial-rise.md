@@ -1,6 +1,8 @@
 ---
 title: "The impact of China’s industrial rise on the euro area"
 weight: 2
+aliases:
+  - "/work-in-progress/china-industrial-rise/"
 draft: false
 keywords:
   - "China"
@@ -8,7 +10,7 @@ keywords:
   - "euro area"
   - "trade"
 cover:
-  image: "work-in-progress/china-industrial-rise.png"
+  image: "publications/china-industrial-rise.png"
   relative: true
 author: "with Alessandra Amicucci, Nicolò Gnocato, Vanessa Gunnella, Clara Lindemann, and Carlos Montes-Galdón (ECB)"
 summary: "(_Own summary_) We document that China's exports to the euro area have risen recent years, and shifted from labour-intensive final goods toward advanced-manufacturing intermediates. We find that cheaper intermediate inputs boost EU production and lower inflation, while competing final goods displace it, leaving the net short-run effect on euro area GDP expansionary."

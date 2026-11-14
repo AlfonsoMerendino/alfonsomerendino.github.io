@@ -1,13 +1,15 @@
 ---
 title: "Tariffs, Uncertainty, and the Exchange Rate"
-weight: 3
+weight: 1
+aliases:
+  - "/work-in-progress/tariffs_uncertainty_exchrate/"
 draft: false
 keywords:
   - "tariffs"
   - "uncertainty"
   - "structural trade policy uncertainty"
 cover:
-  image: "work-in-progress/tariffs_exch_rate_fig.png"
+  image: "publications/tariffs_exch_rate_fig.png"
   relative: true
 author: "with Tommaso Monacelli (Bocconi)"
 summary: "Tariff shocks transmit as a negative aggregate demand shocks and can _depreciate_ the US nominal (and real) exchange rate, against the textbook prediction. This average effect depends on structural trade policy uncertainty, i.e. uncertainty about the _persistence_ of the trade-policy regime. A tariff shock under high S-TPU depreciates the US exchange rate"
@@ -19,9 +21,9 @@ summary: "Tariff shocks transmit as a negative aggregate demand shocks and can _
 
 **Coverage.** [CEPR Economic Vox Talks](https://cepr.org/multimedia/tariffs-uncertainty-and-exchange-rate)
 
-[Download paper (PDF)](/work-in-progress/Tariffs_Uncertainty_and_Exchange_Rate_MM2026_final.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper presented at the 2026 Economic Policy conference](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/)
+[Download paper (PDF)](/publications/Tariffs_Uncertainty_and_Exchange_Rate_MM2026_final.pdf) &nbsp;&nbsp; &nbsp;&nbsp; [Paper presented at the 2026 Economic Policy conference](https://economic-policy.org/2nd-ep-pegi/tariffs-uncertainty-and-the-exchange-rate/)
 
-[Replication package](/work-in-progress/replication_package_tariff_MM2026_final.zip)
+[Replication package](/publications/replication_package_tariff_MM2026_final.zip)
 
 {{< cite >}}
 @article{MerendinoMonacelli2026tariffs,
