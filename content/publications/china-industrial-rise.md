@@ -13,7 +13,7 @@ cover:
   image: "publications/china-industrial-rise.png"
   relative: true
 author: "with Alessandra Amicucci, Nicolò Gnocato, Vanessa Gunnella, Clara Lindemann, and Carlos Montes-Galdón (ECB)"
-summary: "(_Own summary_) We document that China's exports to the euro area have risen recent years, and shifted from labour-intensive final goods toward advanced-manufacturing intermediates. We find that cheaper intermediate inputs boost EU production and lower inflation, while competing final goods displace it, leaving the net short-run effect on euro area GDP expansionary."
+summary: "(_Own summary_) We document that China's exports to the euro area have risen in recent years, and shifted from labour-intensive final goods toward advanced-manufacturing intermediates. We find that cheaper intermediate inputs boost EU production and lower inflation, while competing final goods displace it, leaving the net short-run effect on euro area GDP expansionary."
 ---
 
 **Coverage.** [Financial Times](https://ep.ft.com/permalink/emails/eyJlbWFpbCI6ImMyNTAxMDhiNjNkMTQwZjJiNjdiZmI2NGRkNjkyMTVjZWI4MTViODIwYWE3NGY4MzUwMzdiMTNkMDg2OTc2YWNmMzQzMDBjMTk1ZWZmZDk1IiwgInRyYW5zYWN0aW9uSWQiOiIzZjI5NWQ5Zi0zNjVhLTQ4YjYtOTk5YS0zNjcyNmU1OTdhNDgiLCAiYmF0Y2hJZCI6ImU2MGI2ZDQ2LWYxODMtNDlkYS1iOTViLTAzYWUzNzU5NjM3YSJ9)
